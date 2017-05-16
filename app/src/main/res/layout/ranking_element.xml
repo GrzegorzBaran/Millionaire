@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_ranking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:textColor="#ffffff" />
+        <TextView
+            android:id="@+id/win_ranking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginLeft="10dp"
+            android:textColor="#33CC33" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/help_5050_ranking"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:padding="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:id="@+id/help_friend_ranking"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp" />
+
+    <ImageView
+        android:id="@+id/help_audience_ranking"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:padding="5dp"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>
